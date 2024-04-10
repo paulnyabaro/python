@@ -12,3 +12,4 @@ fun()
 
 print(x)
 print(j)
+
