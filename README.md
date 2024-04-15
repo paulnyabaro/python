@@ -9,3 +9,7 @@ Set Types:	set, frozenset
 Boolean Type:	bool
 Binary Types:	bytes, bytearray, memoryview
 None Type:	NoneType
+
+
+The list() Constructor
+thislist = list(("apple", "banana", "cherry")) # note the double round-brackets
