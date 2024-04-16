@@ -38,5 +38,17 @@ fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
 
 ##sets
 add into a set using update() method
-remove from a set using discard() -> will not raise error, or remove() -> will raise error if item does not exist
+remove from a set using discard() -> will not raise error, or remove() -> will raise error if item does not exist, you can also use pop() to remove a random item and del() will delete the set completely
+
+
+##Join Sets
+There are several ways to join two or more sets in Python.
+
+The union() and update() methods joins all items from both sets.
+
+The intersection() method keeps ONLY the duplicates.
+
+The difference() method keeps the items from the first set that are not in the other set(s).
+
+The symmetric_difference() method keeps all items EXCEPT the duplicates.
 
