@@ -21,3 +21,18 @@ Dictionary is a collection which is ordered** and changeable. No duplicate membe
 
 ##List comprehension
 newlist = [expression for item in iterable if condition == True]
+
+
+##Unpacking a Tuple
+
+fruits = ("apple", "banana", "cherry")
+
+(green, yellow, red) = fruits
+
+###Note: The number of variables must match the number of values in the tuple, if not, you must use an asterisk to collect the remaining values as a list.
+
+##Using Asterisk*
+fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
+(green, yellow, *red) = fruits
+
+
