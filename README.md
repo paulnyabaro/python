@@ -36,3 +36,7 @@ fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
 (green, yellow, *red) = fruits
 
 
+##sets
+add into a set using update() method
+remove from a set using discard() -> will not raise error, or remove() -> will raise error if item does not exist
+
