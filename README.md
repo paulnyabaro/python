@@ -55,5 +55,5 @@ The symmetric_difference() method keeps all items EXCEPT the duplicates.
 ##Python sets methods
 .keys -> returns all the keys
 .values -> returns all the values
-.items -> returns all the items
+.items -> returns all the items as a tuples in a list
 
