@@ -52,3 +52,8 @@ The difference() method keeps the items from the first set that are not in the o
 
 The symmetric_difference() method keeps all items EXCEPT the duplicates.
 
+##Python sets methods
+.keys -> returns all the keys
+.values -> returns all the values
+.items -> returns all the items
+
